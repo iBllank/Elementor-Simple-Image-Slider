@@ -1,0 +1,97 @@
+/*
+  CSS by: Ahmed H. Mosa
+  Contact: iseal.net@gmail.com
+  Feel free to customize it how u like.
+*/
+
+.image-slider-cu, .image-slider-cu .swiper  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-slider-cu .swiper-wrapper {
+      height: 88%;
+  }
+
+  .image-slider-cu .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .image-slider-cu .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    
+  }
+
+  .image-slider-cu .swiper-button-prev,
+  .image-slider-cu .swiper-button-next {
+      top: auto!important;
+      bottom: 1px!important;
+      background-image: none!important;
+  }
+
+  .image-slider-cu .swiper-button-next::after {
+  content: '\25B6'!important;
+  border: solid 1px #4c684d !important;
+  padding: 12px 15px 12px 15px !important;
+  font-size: 15px !important;
+  color: #4c684d!important;
+  border-radius: 0 10px 10px 0!important;
+  left: 13%!important;
+  }
+
+  .image-slider-cu .swiper-button-prev::after{
+  content: '\25C0'!important;
+  border: solid 1px #4c684d !important;
+  padding: 12px 15px 12px 15px !important;
+  font-size: 15px !important;
+  color: #4c684d!important;
+  border-radius: 10px 0 0 10px!important;
+  }
+  .image-slider-cu .swiper-button-next {
+  left: 12.5%!important;
+  margin-top: 5px;
+  }   
+  .image-slider-cu .swiper-button-prev {
+  left: 13px!important;
+  margin-top: 5px;
+  }
+  .image-slider-cu .arrows-div-cu {
+    width: 100%;
+    height: 50px;
+  }
+  
+
+
+  @media only screen and (max-width: 600px) {
+    
+
+    .image-slider-cu .swiper-button-next {
+      left: auto!important;
+      right: 13px;
+      margin-top: 5px;
+      }   
+      .image-slider-cu .swiper-button-prev {
+      left: 13px!important;
+      margin-top: 5px;
+      }
+
+}
